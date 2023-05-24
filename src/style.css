@@ -1,0 +1,67 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.heatGame {
+    width: 75%;
+    height: 30%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: table;
+    background-color: white;
+}
+
+.content {
+    position: relative;
+    vertical-align: middle;
+}
+
+.content * {
+    text-align: center;
+}
+
+#question {
+    font-size: 36px;
+}
+
+#game {
+    font-size: 72px;
+}
+
+#statement {
+    font-size: 24px;
+}
+
+#footer {
+    height: 30px;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    bottom: 0px;
+}
+
+#footer > div {
+    position: relative;
+    top: 20%
+}
+
+#footer .content-left {
+    text-align: left;
+    left: 5%;
+}
+
+#footer .content-center {
+    text-align: center;
+}
+
+#footer .content-right {
+    text-align: right;
+    right: 5%;
+}
+
+.footer-item {
+    margin-left: 10px;
+}
